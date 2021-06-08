@@ -1,21 +1,39 @@
-/*
- 全体
-*/
+/* 全体 */
 body{
     font-family: "Noto Sans JP", "sans-serif";
     margin: 0 auto;
 }
 
+.sub-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    line-height: 15px;
+}
 
-/*
- ヘッダー
-*/
+.subtitle-design {
+    font-size: 15px;
+}
+
+.subtitle-design img {
+    height: 15px;
+    padding: 0 10px;
+    position: relative;
+    top: 2px;
+}
+
+
+/* ヘッダー*/
 .header-container {
     width: 100%;
     height: 70px;
+    background-color: #FFF;
     border-bottom: 3px solid #E04444;
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 .header-container .header-icon {
@@ -80,5 +98,55 @@ body{
     left: 320px;
 }
 
+/* About */
+
+.about {
+    margin-top: 0;
+    background-color: #E04444;
+    color: #FFF;
+    height: 500px;
+    text-align: center;
+}
+
+.about .about-container {
+    padding-top: 80px;
+}
 
 
+.about .about-container .skill {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+.about .about-container .introduction{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 620px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.about .about-container .e-mail{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+.about .about-container ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about .about-container li {
+    list-style: none;
+
+}
+
+.about .about-container li img {
+    width: 45px;
+    margin-right: 20px;
+}
