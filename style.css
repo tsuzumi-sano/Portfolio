@@ -1,0 +1,38 @@
+/*
+ 全体
+*/
+body{
+    font-family: "Noto Sans JP", "sans-serif";
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/*
+ ヘッダー
+*/
+.header-container {
+ height: 70px;
+ border-bottom: 3px solid #E04444;
+}
+
+.header-container .header-icon {
+    display: flex;
+}
+
+.header-container .header-icon li {
+    text-align: center;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.header-container .header-icon li img {
+    height: 25px;
+
+}
+
+.header-container .header-icon li p {
+    font-size: 12px;
+    line-height: 2px;
+    margin-top: 2px;
+}
