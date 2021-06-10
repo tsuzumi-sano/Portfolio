@@ -13,14 +13,14 @@ li{
 .sub-title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: normal;
     letter-spacing: 3px;
     line-height: 15px;
 }
 
 .subtitle-design {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .subtitle-design img {
@@ -112,12 +112,12 @@ li{
     margin-top: 0;
     background-color: #E04444;
     color: #FFF;
-    height: 500px;
+    height: 520px;
     text-align: center;
 }
 
 .about .about-container {
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 
@@ -157,7 +157,7 @@ li{
 
 /* Projects */
 .projects {
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .projects-container {
@@ -193,7 +193,7 @@ li{
 
 .projects-list .project .text-area h3 {
     font-weight: normal;
-    font-size: 22px;
+    font-size: 25px;
     letter-spacing: 2px;
     margin-bottom: 0%;
     
@@ -201,36 +201,103 @@ li{
 
 .projects-list .project .text-area img {
     padding-top: 0%;
-    width: 60px;
+    width: 80px;
 }
 
 .projects-list .project .text-area .description {
-    font-size: 16px;
+    font-size: 19px;
     letter-spacing: 1px;
 
 }
 
 .projects-list .project .text-area .description-account {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    font-size: 18px;
 }
 
 .projects-list .project .text-area b {
     font-weight: normal;
     letter-spacing: 1px;
     line-height: 27px;
+    font-size: 17px;
 }
 
 .projects-list .project .text-area .link-btn {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .projects-list .project .text-area .link-btn a {
     border-radius: 3px;
     color: #FFF;
     background-color: #E04444;
-    padding: 13px 10px;
+    padding: 16px 13px;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0 7px;
+}
+
+/* Contact Me */
+.contactMe-container {
+    padding-top: 130px;
+    text-align: center;
+}
+
+.contactMe-container .sub-title span{
+    color: #E04444;
+}
+
+.contactMe-container .detail-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 70px auto;
+
+}
+
+.contactMe-container .detail-box .detail {
+    width: 50%;
+    margin: 0 80px;
+    border-bottom: 3px solid #E04444;
+    background-color: #FAF8F8;
+    padding-top: 40px;
+}
+
+.contactMe-container .detail-box .detail img {
+    width: 40px;
+    padding-bottom: 5px;
+}
+
+.contactMe-container .detail-box .detail img.line {
+    width: 80px;
+}
+
+.contactMe-container .detail-box .detail b {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: normal;
     letter-spacing: 1px;
-    margin: 0 7px;
+}
+
+.contactMe-container .detail-box .detail p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+/* フッター */
+footer {
+    margin-top: 100px;
+    background-color: #FAF8F8;
+    height: 70px;
+    text-align: center;
+}
+footer p {
+    line-height: 70px;
+    color: #938F8F;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
