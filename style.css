@@ -1,9 +1,7 @@
 /* 全体 */
 body{
-    font-family: "Noto Sans JP", "sans-serif";
     margin: 0 auto;
     width: 100%;
-    min-width: 1000px;
 }
 
 li{
@@ -34,20 +32,22 @@ li{
 /* ヘッダー*/
 .header-container {
     width: 100%;
-    min-width: 1000px;
     height: 70px;
     background-color: #FFF;
     border-bottom: 3px solid #E04444;
     position: fixed;
     top: 0;
     z-index: 10;
+    padding-bottom: 10px;
 }
 
 .header-container .header-icon {
-    display: flex;
+    padding-inline-start: 20px; 
+    margin-block-start: 17px;
 }
 
 .header-container .header-icon li {
+    float: left;
     text-align: center;
     margin-right: 25px;
 }
@@ -68,7 +68,6 @@ li{
 .main{
     margin-top: 70px;
     width: 100%;
-    min-width: 1000px;
 }
 
 /* メインイメージ */
@@ -77,7 +76,6 @@ li{
     height: 700px;
     background-color: #FAF8F8;
     width: 100%;
-    min-width: 1000px;
     display: flex;
     justify-content: center;
 }
@@ -138,7 +136,7 @@ li{
 }
 
 .about .about-container .e-mail{
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1px;
     line-height: 50px;
 }
@@ -300,4 +298,200 @@ footer p {
     color: #938F8F;
     font-size: 13px;
     letter-spacing: 1px;
+}
+
+
+/* タブレットサイズ */
+@media screen and (max-width: 1024px){
+    
+    /* メインイメージ */
+    
+    .mainImage-container {
+        height: 840px;
+        display: block;
+        text-align: center;
+    }
+    
+    .mainImage-container .main-name {
+        padding-top: 80px;
+    }
+    
+    .mainImage-container .img {
+        padding-top: 0;
+        margin: 0 auto;
+    }
+
+    .mainImage-container img {
+        width: 350px;
+    }
+
+    /* About */
+    .about {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    /* Projects */
+    
+    .projects-list .project{
+        margin:0 20px
+    }
+
+    .projects-list .project .img-box{
+        margin:0 20px
+    }
+
+    .projects-list .project .text-area h3 {
+        font-size: 23px;
+    }
+    
+    .projects-list .project .text-area .description {
+        font-size: 17px;
+    }
+    
+    .projects-list .project .text-area .description-account {
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    
+    .projects-list .project .text-area b {
+        line-height: 23px;
+        font-size: 16px;
+    }
+    
+    .projects-list .project .text-area .link-btn a {
+        padding: 14px 11px;
+        font-size: 17px;
+    }
+    
+    /* Contact Me */
+    
+    .contactMe-container .detail-box .detail {
+        margin: 0 30px;
+    }
+    
+}
+
+
+/* SPサイズ */
+@media screen and (max-width: 600px){
+    /* 全体 */
+    body{
+        max-width: 600px;
+    }
+
+    .sub-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+    
+    .subtitle-design {
+        font-size: 15px;
+    }
+    
+    
+    /* ヘッダー*/
+    .header-container {
+        height: 50px;
+    }
+    
+    .header-container .header-icon {
+        display: block;
+        padding-inline-start: 20px; 
+        margin-block-start: 10px;
+    }
+
+    .header-container .header-icon .home{
+        float: left;
+    }
+
+    .header-container .header-icon .right li {
+        float: right;
+
+    }
+    
+    .header-container .header-icon li {
+        text-align: center;
+        margin-right: 25px;
+    }
+    
+    .header-container .header-icon li img {
+        height: 20px;
+    
+    }
+    
+    .header-container .header-icon li p {
+        font-size: 11px;
+        line-height: 1px;
+        margin-top: 1px;
+    }
+    
+    /* メインイメージ */
+    
+    .mainImage-container {
+        height: 560px;
+    }
+    
+    .mainImage-container .main-name {
+        padding-top: 60px;
+    }
+
+    .mainImage-container .main-name h1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .mainImage-container .main-name h2 {
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .mainImage-container .img {
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+
+    .mainImage-container img {
+        width: 200px;
+    }
+    
+    
+    /* Projects */
+    
+    .projects-list .project .img-box{
+        margin:0 20px
+    }
+
+    .projects-list .project .text-area h3 {
+        font-size: 23px;
+    }
+    
+    .projects-list .project .text-area .description {
+        font-size: 17px;
+    }
+    
+    .projects-list .project .text-area .description-account {
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    
+    .projects-list .project .text-area b {
+        line-height: 23px;
+        font-size: 16px;
+    }
+    
+    .projects-list .project .text-area .link-btn a {
+        padding: 14px 11px;
+        font-size: 17px;
+    }
+    
+    /* Contact Me */
+    
+    .contactMe-container .detail-box .detail {
+        margin: 0 30px;
+    }
+    
+
 }
