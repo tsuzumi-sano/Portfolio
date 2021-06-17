@@ -301,6 +301,10 @@ footer p {
 }
 
 
+
+
+
+
 /* タブレットサイズ */
 @media screen and (max-width: 1024px){
     
@@ -373,11 +377,16 @@ footer p {
 }
 
 
+
+
+
+
+
 /* SPサイズ */
 @media screen and (max-width: 600px){
     /* 全体 */
     body{
-        max-width: 600px;
+        width: 100%;
     }
 
     .sub-title {
@@ -398,7 +407,6 @@ footer p {
     
     .header-container .header-icon {
         display: block;
-        padding-inline-start: 20px; 
         margin-block-start: 10px;
     }
 
@@ -411,11 +419,6 @@ footer p {
 
     }
     
-    .header-container .header-icon li {
-        text-align: center;
-        margin-right: 25px;
-    }
-    
     .header-container .header-icon li img {
         height: 20px;
     
@@ -426,11 +429,17 @@ footer p {
         line-height: 1px;
         margin-top: 1px;
     }
+
+    /* メイン */
+
+    .main{
+        margin-top: 50px;
+    }
     
     /* メインイメージ */
     
     .mainImage-container {
-        height: 560px;
+        height: 533px;
     }
     
     .mainImage-container .main-name {
@@ -438,60 +447,134 @@ footer p {
     }
 
     .mainImage-container .main-name h1 {
-        font-size: 70px;
-        line-height: 70px;
+        font-size: 60px;
+        line-height: 60px;
     }
 
     .mainImage-container .main-name h2 {
-        margin-top: 20px;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 25px;
+        letter-spacing: 3px;
     }
     
     .mainImage-container .img {
         padding-top: 20px;
         margin: 0 auto;
+        width: 100%;
     }
 
     .mainImage-container img {
         width: 200px;
     }
     
+
+    /* About */
+    .about {
+        
+        height: 550px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .about .about-container {
+        padding-top: 70px;
+    }
+
+    .about .about-container .skill {
+        font-size: 15px;
+    }
+
+    .about .about-container .introduction {
+        font-size: 12px;
+    }
+
+    .about .about-container .e-mail {
+        font-size: 13px;
+    }
+
+    .about .about-container li img{
+        width: 35px;
+    }
     
     /* Projects */
-    
-    .projects-list .project .img-box{
-        margin:0 20px
+
+    .projects {
+        padding-top: 70px;
     }
 
-    .projects-list .project .text-area h3 {
-        font-size: 23px;
+    .projects-container .projects-list  {
+        padding-top: 20px;
+        display: block;
+        width: 100%;
     }
     
-    .projects-list .project .text-area .description {
-        font-size: 17px;
+    .projects-container .projects-list .project {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 90px;
+        margin-top: 20px;
     }
     
-    .projects-list .project .text-area .description-account {
-        margin-bottom: 8px;
-        font-size: 16px;
+    .projects-container .projects-list .project .text-area h3 {
+        font-size: 18px;
     }
-    
-    .projects-list .project .text-area b {
-        line-height: 23px;
-        font-size: 16px;
+
+    .projects-container .projects-list .project .text-area .description {
+        font-size: 12px;
     }
-    
+
+    .projects-container .projects-list .project .text-area .description-account {
+        font-size: 14px;
+    }
+
+    .projects-container .projects-list .project .text-area b {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
     .projects-list .project .text-area .link-btn a {
-        padding: 14px 11px;
-        font-size: 17px;
+        font-size: 14px;
     }
-    
+
     /* Contact Me */
     
+    .contactMe-container {
+        padding-top: 30px;
+    }
+
+    .contactMe-container .detail-box  {
+        display: block;
+        width: 80%;
+    }
+
     .contactMe-container .detail-box .detail {
-        margin: 0 30px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 50px;
+        padding-top: 25px;
     }
     
+    .contactMe-container .detail-box .detail img {
+        width: 35px;
+    }
 
+    .contactMe-container .detail-box .detail b {
+        font-size: 13px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .contactMe-container .detail-box .detail p {
+        font-size: 13px;
+    }
+
+    /* フッター */
+    footer {
+        margin-top: 20px;
+        height: 50px;
+    }
+    footer p {
+        line-height: 50px;
+        font-size: 9px;
+    }
 }
