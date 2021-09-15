@@ -1,4 +1,8 @@
 /* 全体 */
+a{
+    text-decoration: none;
+}
+
 body{
     font-family: sans-serif;
     margin: 0 auto;
@@ -33,7 +37,7 @@ li{
 /* ヘッダー*/
 .header-container {
     width: 100%;
-    height: 70px;
+    height: 80px;
     background-color: #FFF;
     border-bottom: 3px solid #E04444;
     position: fixed;
@@ -50,18 +54,18 @@ li{
 .header-container .header-icon li {
     float: left;
     text-align: center;
-    margin-right: 25px;
+    margin: 0 15px;
 }
 
 .header-container .header-icon li img {
-    height: 25px;
-
+    height: 30px;
 }
 
 .header-container .header-icon li p {
+    color: black;
     font-size: 12px;
     line-height: 2px;
-    margin-top: 2px;
+    margin-top: 4px;
 }
 
 /* メイン */
@@ -105,18 +109,27 @@ li{
     padding-top: 80px;
 }
 
+.red-box {
+    margin-bottom: 100px;
+    background-color: #E04444;
+    color: #FFF;
+    height: 200px;
+    text-align: center;
+}
+
+
 /* About */
 
 .about {
     margin-top: 0;
     background-color: #E04444;
     color: #FFF;
-    height: 520px;
+    height: 200px;
     text-align: center;
 }
 
 .about .about-container {
-    padding-top: 100px;
+    padding-top: 1px;
 }
 
 
@@ -154,11 +167,24 @@ li{
 }
 
 
-/* Projects */
-.projects {
+/* HOME Projects */
+.main .projects {
     padding-top: 100px;
 }
 
+.main .projects .projects-container .link-btn {
+    display: block;
+    color: #E04444;
+    border:2px solid  #E04444;
+    border-radius: 10%;
+}
+
+/* Projectsページ */
+.projects {
+    padding-top: 200px;
+}
+
+/* Projects共通 */
 .projects-container {
     margin: 0 auto;
     text-align: center;
@@ -239,7 +265,7 @@ li{
 
 /* Contact Me */
 .contactMe-container {
-    padding-top: 130px;
+    padding-top: 220px;
     text-align: center;
 }
 
@@ -258,14 +284,15 @@ li{
 
 .contactMe-container .detail-box .detail {
     width: 50%;
-    margin: 0 80px;
+    margin: 0 70px;
     border-bottom: 3px solid #E04444;
     background-color: #FAF8F8;
-    padding-top: 40px;
+    padding-top: 130px;
+    padding-bottom: 100px;
 }
 
 .contactMe-container .detail-box .detail img {
-    width: 40px;
+    width: 60px;
     padding-bottom: 5px;
 }
 
@@ -274,33 +301,52 @@ li{
 }
 
 .contactMe-container .detail-box .detail b {
+    font-size: 20px;
     display: block;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     font-weight: normal;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .contactMe-container .detail-box .detail p {
-    font-size: 17px;
+    font-size: 20px;
     letter-spacing: 1px;
     padding-bottom: 10px;
 }
 
+.contactMe-container .link-btn {
+    display: block;
+    border-radius: 3px;
+    color: #E04444;
+    margin-top: 100px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+
 /* フッター */
 footer {
+    padding-top: 20px;
+    padding-bottom: 5px;
     margin-top: 100px;
     background-color: #FAF8F8;
-    height: 70px;
     text-align: center;
 }
-footer p {
+
+footer .footer-link {
     line-height: 70px;
+    color: rgb(44, 44, 44);
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+}
+
+footer p {
     color: #938F8F;
     font-size: 13px;
     letter-spacing: 1px;
 }
-
 
 
 
@@ -329,6 +375,7 @@ footer p {
     .mainImage-container img {
         width: 350px;
     }
+    
 
     /* About */
     .about {
@@ -568,6 +615,8 @@ footer p {
     .contactMe-container .detail-box .detail p {
         font-size: 13px;
     }
+
+
 
     /* フッター */
     footer {
