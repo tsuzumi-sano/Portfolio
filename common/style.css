@@ -1,15 +1,15 @@
 /* 全体 */
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     font-family: sans-serif;
     margin: 0 auto;
     width: 100%;
 }
 
-li{
+li {
     list-style: none;
 }
 
@@ -33,8 +33,7 @@ li{
     top: 2px;
 }
 
-
-/* ヘッダー*/
+/* ヘッダー */
 .header-container {
     width: 100%;
     height: 80px;
@@ -47,9 +46,7 @@ li{
 }
 
 .header-container .header-icon {
-    padding-inline-start: 20px; 
-    margin-block-start: 17px;
-}
+    padding-inline-start: 20px; margin-block-start: 17px; }
 
 .header-container .header-icon li {
     float: left;
@@ -69,14 +66,12 @@ li{
 }
 
 /* メイン */
-
-.main{
+.main {
     margin-top: 70px;
     width: 100%;
 }
 
 /* メインイメージ */
-
 .mainImage-container {
     height: 700px;
     background-color: #FAF8F8;
@@ -84,9 +79,11 @@ li{
     display: flex;
     justify-content: center;
 }
+
 .mainImage-container .main-name {
     padding-top: 200px;
 }
+
 .mainImage-container .main-name h1 {
     margin-top: 0;
     margin-bottom: 0;
@@ -98,10 +95,11 @@ li{
 
 .mainImage-container .main-name h2 {
     color: #E04444;
-    font-weight:lighter;
+    font-weight: lighter;
     font-size: 22px;
     line-height: 40px;
     letter-spacing: 5px;
+    padding-left: 10px;
 }
 
 .mainImage-container .img {
@@ -117,21 +115,20 @@ li{
     text-align: center;
 }
 
-
-/* About */
-
+/* About.php */
 .about {
-    margin-top: 0;
-    background-color: #E04444;
-    color: #FFF;
+    margin-top: 200px;
     height: 200px;
     text-align: center;
+}
+
+.about .sub-title {
+    color: #E04444;
 }
 
 .about .about-container {
     padding-top: 1px;
 }
-
 
 .about .about-container .skill {
     margin-top: 40px;
@@ -140,7 +137,7 @@ li{
     font-size: 17px;
 }
 
-.about .about-container .introduction{
+.about .about-container .introduction {
     width: 100%;
     margin: 0 auto;
     max-width: 620px;
@@ -149,7 +146,7 @@ li{
     line-height: 25px;
 }
 
-.about .about-container .e-mail{
+.about .about-container .e-mail {
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 50px;
@@ -158,30 +155,33 @@ li{
 .about .about-container ul {
     display: flex;
     justify-content: center;
-
 }
 
 .about .about-container li img {
-    width: 45px;
     margin-right: 30px;
 }
 
-
 /* HOME Projects */
-.main .projects {
-    padding-top: 100px;
+.home-projects {
+    padding-top: 50px;
 }
 
-.main .projects .projects-container .link-btn {
+.home-projects .link-btn {
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
     display: block;
-    color: #E04444;
-    border:2px solid  #E04444;
-    border-radius: 10%;
+    color: #ffffff;
+    background-color: #E04444;
+    border-radius: 15px;
 }
 
-/* Projectsページ */
-.projects {
-    padding-top: 200px;
+.home-projects .link-btn:hover {
+    background-color: #f06868;
 }
 
 /* Projects共通 */
@@ -191,6 +191,7 @@ li{
     width: 100%;
     max-width: 1400px;
 }
+
 .projects-container .sub-title {
     color: #E04444;
     padding-bottom: 10px;
@@ -207,21 +208,20 @@ li{
     color: #555353;
 }
 
-.projects-list .project .img-box{
+.projects-list .project .img-box {
     border: 2px solid #E04444;
-    margin:0 50px
+    margin: 0 50px
 }
 
-.projects-list .project .img-box img{
+.projects-list .project .img-box img {
     width: 90%;
 }
 
 .projects-list .project .text-area h3 {
     font-weight: normal;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 2px;
     margin-bottom: 0%;
-    
 }
 
 .projects-list .project .text-area img {
@@ -230,46 +230,89 @@ li{
 }
 
 .projects-list .project .text-area .description {
-    font-size: 19px;
+    font-size: 22px;
     letter-spacing: 1px;
-
 }
 
-.projects-list .project .text-area .description-account {
+/* Projects.php */
+.projects-page {
+    padding-top: 200px;
+}
+
+.projects-page .projects-container {
+}
+
+.projects-page .projects-container .sub-title {
+}
+
+.projects-page .projects-container .subtitle-design {
+}
+
+.projects-page .projects-container .projects-list {
+    display: block;
+}
+
+.projects-page .projects-container .projects-list .project {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.projects-page .projects-container .projects-list .project .img-box {
+    margin: 0;
+}
+
+.projects-page .projects-container .projects-list .project .img-box .img {
+}
+
+.projects-page .projects-container .projects-list .project .text-area {
+    margin-bottom: 150px;
+}
+
+.projects-page .projects-container .projects-list .project .text-area h3 {
+}
+
+.projects-page .projects-container .projects-list .project .text-area img {
+}
+
+.projects-page .projects-container .projects-list .project .text-area .description {
+}
+
+.projects-page .projects-container .projects-list .project .text-area .description-account {
     margin-bottom: 8px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.projects-list .project .text-area b {
+.projects-page .projects-container .projects-list .project .text-area b {
     font-weight: normal;
     letter-spacing: 1px;
     line-height: 27px;
-    font-size: 17px;
+    font-size: 20px;
 }
 
-.projects-list .project .text-area .link-btn {
-    margin-top: 25px;
+.projects-page .projects-container .projects-list .project .text-area .link-btn {
+    margin-top: 40px;
 }
 
-.projects-list .project .text-area .link-btn a {
-    border-radius: 3px;
+.projects-page .projects-container .projects-list .project .text-area .link-btn a {
+    border-radius: 5px;
     color: #FFF;
     background-color: #E04444;
-    padding: 16px 13px;
+    padding: 20px 15px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: normal;
     letter-spacing: 2px;
-    margin: 0 7px;
+    margin-right: 15px;
 }
 
-/* Contact Me */
+/* Contact.php */
 .contactMe-container {
-    padding-top: 220px;
+    padding-top: 200px;
     text-align: center;
 }
 
-.contactMe-container .sub-title span{
+.contactMe-container .sub-title span {
     color: #E04444;
 }
 
@@ -279,7 +322,6 @@ li{
     width: 100%;
     max-width: 1200px;
     margin: 70px auto;
-
 }
 
 .contactMe-container .detail-box .detail {
@@ -324,12 +366,57 @@ li{
     letter-spacing: 3px;
 }
 
+/* skill.php */
+.skill-container {
+    padding-top: 200px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skill-container .sub-title {
+    text-align: center;
+    color: #E04444;
+}
+
+.skill-container .subtitle-design {
+    text-align: center;
+}
+
+.skill-container .subtitle-design img {
+}
+
+.skill-container .text-area {
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+.skill-container .text-area .skill-maintext {
+    padding: 10px 0;
+}
+
+.skill-container .text-area .skill-title {
+    display: flex;
+    align-items: center;
+}
+
+.skill-container .text-area .skill-title .skill-icon {
+    height: 25px;
+}
+
+.skill-container .text-area .skill-title h3 {
+    margin-left: 5px;
+    margin-block-start: 10px; margin-block-end: 10px; }
+
+.skill-container .text-area .skill-description {
+    margin-block-start: 5px; margin-block-end: 15px; margin-left: 10px;
+}
 
 /* フッター */
 footer {
     padding-top: 20px;
     padding-bottom: 5px;
-    margin-top: 100px;
+    margin-top: 90px;
     background-color: #FAF8F8;
     text-align: center;
 }
@@ -348,25 +435,18 @@ footer p {
     letter-spacing: 1px;
 }
 
-
-
-
-
 /* タブレットサイズ */
-@media screen and (max-width: 1024px){
-    
-    /* メインイメージ */
-    
-    .mainImage-container {
+@media screen and (max-width: 1024px) {
+    /* メインイメージ */ .mainImage-container {
         height: 840px;
         display: block;
         text-align: center;
     }
-    
+
     .mainImage-container .main-name {
         padding-top: 80px;
     }
-    
+
     .mainImage-container .img {
         padding-top: 0;
         margin: 0 auto;
@@ -375,65 +455,54 @@ footer p {
     .mainImage-container img {
         width: 350px;
     }
-    
 
-    /* About */
+    /* About.php */
     .about {
         padding-right: 10px;
         padding-left: 10px;
     }
 
     /* Projects */
-    
-    .projects-list .project{
-        margin:0 20px
+    .projects-list .project {
+        margin: 0 20px
     }
 
-    .projects-list .project .img-box{
-        margin:0 20px
+    .projects-list .project .img-box {
+        margin: 0 20px
     }
 
     .projects-list .project .text-area h3 {
         font-size: 23px;
     }
-    
+
     .projects-list .project .text-area .description {
         font-size: 17px;
     }
-    
+
     .projects-list .project .text-area .description-account {
         margin-bottom: 8px;
         font-size: 16px;
     }
-    
+
     .projects-list .project .text-area b {
         line-height: 23px;
         font-size: 16px;
     }
-    
+
     .projects-list .project .text-area .link-btn a {
         padding: 14px 11px;
         font-size: 17px;
     }
-    
-    /* Contact Me */
-    
+
+    /* Contact.php */
     .contactMe-container .detail-box .detail {
         margin: 0 30px;
     }
-    
 }
 
-
-
-
-
-
-
 /* SPサイズ */
-@media screen and (max-width: 600px){
-    /* 全体 */
-    body{
+@media screen and (max-width: 600px) {
+    /* 全体 */ body {
         width: 100%;
     }
 
@@ -442,54 +511,53 @@ footer p {
         margin-bottom: 0;
         font-size: 25px;
     }
-    
+
     .subtitle-design {
         font-size: 15px;
     }
-    
-    
-    /* ヘッダー*/
+
+    /* ヘッダー */
     .header-container {
-        height: 50px;
-    }
-    
-    .header-container .header-icon {
-        display: block;
-        margin-block-start: 10px;
+        height: 54px;
     }
 
-    .header-container .header-icon .home{
+    .header-container .header-icon {
+        display: block;
+        margin-block-start: 10px; padding-inline-start: 0; }
+
+    .header-container .header-icon .home {
         float: left;
     }
 
-    .header-container .header-icon .right li {
-        float: right;
-
+    .header-container .header-icon .right {
+        display: flex;
+        justify-content: center;
     }
-    
+
+    .header-container .header-icon .right li {
+        float: none;
+        width: 15%;
+        margin: 0 1%;
+    }
+
     .header-container .header-icon li img {
         height: 20px;
-    
     }
-    
+
     .header-container .header-icon li p {
-        font-size: 11px;
-        line-height: 1px;
-        margin-top: 1px;
+        font-size: 10px;
     }
 
     /* メイン */
-
-    .main{
+    .main {
         margin-top: 50px;
     }
-    
+
     /* メインイメージ */
-    
     .mainImage-container {
         height: 533px;
     }
-    
+
     .mainImage-container .main-name {
         padding-top: 60px;
     }
@@ -504,7 +572,7 @@ footer p {
         line-height: 25px;
         letter-spacing: 3px;
     }
-    
+
     .mainImage-container .img {
         padding-top: 20px;
         margin: 0 auto;
@@ -514,11 +582,14 @@ footer p {
     .mainImage-container img {
         width: 200px;
     }
-    
 
-    /* About */
+    .red-box {
+        height: 100px;
+        margin-bottom: 0;
+    }
+
+    /* about.php */
     .about {
-        
         height: 550px;
         padding-right: 30px;
         padding-left: 30px;
@@ -540,29 +611,38 @@ footer p {
         font-size: 13px;
     }
 
-    .about .about-container li img{
+    .about .about-container li img {
         width: 35px;
     }
-    
-    /* Projects */
 
-    .projects {
-        padding-top: 70px;
+    /* HOME Projects */
+    .home-projects {
+        padding-bottom: 20px;
+        padding-top: 80px;
     }
 
-    .projects-container .projects-list  {
+    .home-projects .link-btn {
+        font-size: 15px;
+        width: 143px;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 8px;
+    }
+
+    /* Projects共通 */
+    .projects-container .projects-list {
         padding-top: 20px;
         display: block;
         width: 100%;
     }
-    
+
     .projects-container .projects-list .project {
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 90px;
+        margin-bottom: 46px;
         margin-top: 20px;
     }
-    
+
     .projects-container .projects-list .project .text-area h3 {
         font-size: 18px;
     }
@@ -571,26 +651,34 @@ footer p {
         font-size: 12px;
     }
 
-    .projects-container .projects-list .project .text-area .description-account {
+    .projects-page .projects-container .projects-list .project .text-area .description-account {
         font-size: 14px;
     }
 
-    .projects-container .projects-list .project .text-area b {
+    .projects-page .projects-container .projects-list .project .text-area b {
         font-size: 13px;
         line-height: 15px;
     }
 
-    .projects-list .project .text-area .link-btn a {
+    .projects-page .projects-container .projects-list .project .text-area .link-btn a {
         font-size: 14px;
     }
 
-    /* Contact Me */
-    
+    /* Projects.php */
+    .projects-page {
+        padding-top: 120px;
+    }
+
+    .projects-page .projects-container .projects-list .project .text-area {
+        margin-bottom: 100px;
+    }
+
+    /* Contact.php */
     .contactMe-container {
         padding-top: 30px;
     }
 
-    .contactMe-container .detail-box  {
+    .contactMe-container .detail-box {
         display: block;
         width: 80%;
     }
@@ -601,7 +689,7 @@ footer p {
         margin-bottom: 50px;
         padding-top: 25px;
     }
-    
+
     .contactMe-container .detail-box .detail img {
         width: 35px;
     }
@@ -616,15 +704,21 @@ footer p {
         font-size: 13px;
     }
 
-
-
     /* フッター */
     footer {
         margin-top: 20px;
-        height: 50px;
+        height: 120px;
     }
+
     footer p {
-        line-height: 50px;
+        line-height: 22px;
         font-size: 9px;
+        padding-bottom: 10px;
+    }
+
+    footer .footer-link {
+        line-height: 40px;
+        padding: 0 20px;
+        font-size: 14px;
     }
 }

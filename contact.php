@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="discription" content="佐野鼓の自己紹介">
-    <title>PORTFOLIO</title>
+    <title>CONTACT - PORTFOLIO</title>
     <link rel="stylesheet" href="./common/style.css">
 </head>
 
@@ -15,7 +15,7 @@
 
     <!-- Contact Me -->
     <div class="contactMe-container">
-        <h2 class="sub-title" id="contact-title">Contact <span>Me</span></h2>
+        <h2 class="sub-title" id="contact-title">CONTACT <span>ME</span></h2>
         <p class="subtitle-design">•••••••<img src="img/矢印.svg" alt="">•••••••</p>
         <div class="detail-box">
             <div class="detail">

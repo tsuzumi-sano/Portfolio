@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="discription" content="佐野鼓の自己紹介">
-    <title>PORTFOLIO</title>
+    <title>PROJECTS - PORTFOLIO</title>
     <link rel="stylesheet" href="./common/style.css">
 </head>
 
@@ -15,14 +15,14 @@
 
     <!-- projects -->
         <!-- Projects -->
-        <div class="projects" id="projects">
+        <div class="projects projects-page">
             <div class="projects-container">
-                <h2 class="sub-title" >Projects</h2>
+                <h2 class="sub-title" >PROJECTS</h2>
                 <p class="subtitle-design">•••••••<img src="img/矢印.svg" alt="">•••••••</p>
                 <div class="projects-list">
                     <div class="project">
                         <div class="img-box">
-                            <a href="https://test-twitterclone-ts.com/TwitterClone"><img src="img/twitter_clone.png" alt="Twitterクローン"></a>
+                            <img src="img/twitter_clone.png" alt="Twitterクローン">
                         </div>
                         <div class="text-area">
                             <h3>Twitterクローン</h3>
@@ -31,7 +31,7 @@
                             <p class="description-account">テストアカウント</p>
                             <b>Email：test0001@example.com<br>Pass：test0001</b>
                             <div class="link-btn">
-                                <a href="">Website</a>
+                                <a href="https://test-twitterclone-ts.com/TwitterClone">Website</a>
                                 <a href="">GitHub</a>
                             </div>
                         </div>
@@ -41,10 +41,10 @@
                             <img src="img/twitter_clone.png" alt="Twitterクローン">
                         </div>
                         <div class="text-area">
-                            <h3>Netflixクローン</h3>
+                            <h3>ひとこと掲示板</h3>
                             <img src="img/line.png" alt="装飾">
-                            <p class="description">Netflixの複製サービスです。<br>PHP / MySQLを利用しています。</p>
-                            <p class="description-account">テストアカウント</p>
+                            <p class="description">シンプルな掲示板です。管理アカウントでログインすると、投稿の削除が可能です。<br>PHP / MySQLを利用しています。</p>
+                            <p class="description-account">管理アカウント</p>
                             <b>Email：test@gmail.com<br>Pass：test123</b>
                             <div class="link-btn">
                                 <a href="">Website</a>
