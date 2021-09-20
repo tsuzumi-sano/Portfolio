@@ -215,7 +215,7 @@ li {
 
 .projects-list .project .img-box img {
     width: 90%;
-    margin: 15px;
+    margin: 5%;
 }
 
 .projects-list .project .text-area h3 {
@@ -255,6 +255,7 @@ li {
 
 .projects-page .projects-container .projects-list .project {
     width: 70%;
+    max-width: 700px;
     margin: 0 auto;
     text-align: left;
 }
@@ -493,6 +494,11 @@ footer p {
     .projects-list .project .text-area .link-btn a {
         padding: 14px 11px;
         font-size: 17px;
+    }
+
+    .projects-page .projects-container .projects-list .project .text-area .link-btn a {
+        font-size: 17px;
+        padding: 17px 12px;
     }
 
     /* Contact.php */

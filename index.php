@@ -37,12 +37,12 @@
                         <div class="text-area">
                             <h3>Twitterクローン</h3>
                             <img src="img/line.png" alt="装飾">
-                            <p class="description">Twitterの複製アプリです。ツイートを投稿できます。<br>PHP / さくらVPSを利用しています。</p>
+                            <p class="description">Twitterの複製アプリです。ツイートを投稿できます。<br>PHP / MySQLを利用しています。</p>
                         </div>
                     </div>
                     <div class="project">
                         <div class="img-box">
-                            <img src="img/twitter_clone.png" alt="Twitterクローン">
+                            <img src="img/ひとこと掲示板.png" alt="ひとこと掲示板">
                         </div>
                         <div class="text-area">
                             <h3>ひとこと掲示板</h3>
