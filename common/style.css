@@ -240,15 +240,6 @@ li {
     padding-top: 200px;
 }
 
-.projects-page .projects-container {
-}
-
-.projects-page .projects-container .sub-title {
-}
-
-.projects-page .projects-container .subtitle-design {
-}
-
 .projects-page .projects-container .projects-list {
     display: block;
 }
@@ -264,20 +255,8 @@ li {
     margin: 0;
 }
 
-.projects-page .projects-container .projects-list .project .img-box .img {
-}
-
 .projects-page .projects-container .projects-list .project .text-area {
     margin-bottom: 150px;
-}
-
-.projects-page .projects-container .projects-list .project .text-area h3 {
-}
-
-.projects-page .projects-container .projects-list .project .text-area img {
-}
-
-.projects-page .projects-container .projects-list .project .text-area .description {
 }
 
 .projects-page .projects-container .projects-list .project .text-area .description-account {
@@ -323,7 +302,7 @@ li {
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    margin: 70px auto;
+    margin: 120px auto 180px;
 }
 
 .contactMe-container .detail-box .detail {
@@ -357,6 +336,7 @@ li {
     font-size: 20px;
     letter-spacing: 1px;
     padding-bottom: 10px;
+    color: black;
 }
 
 .contactMe-container .link-btn {
@@ -383,9 +363,6 @@ li {
 
 .skill-container .subtitle-design {
     text-align: center;
-}
-
-.skill-container .subtitle-design img {
 }
 
 .skill-container .text-area {
@@ -501,9 +478,24 @@ footer p {
         padding: 17px 12px;
     }
 
+    /* skill.php */
+    .skill-container .text-area {
+        font-size: 15px;
+    }
+
     /* Contact.php */
     .contactMe-container .detail-box .detail {
-        margin: 0 30px;
+        margin: 0 3%;
+        padding-top: 90px;
+        padding-bottom: 70px;
+    }
+
+    .contactMe-container .detail-box .detail b {
+        font-size: 16px;
+    }
+
+    .contactMe-container .detail-box .detail p {
+        font-size: 16px;
     }
 }
 
@@ -680,9 +672,24 @@ footer p {
         margin-bottom: 100px;
     }
 
+    /* skill.php */
+    .skill-container {
+        padding-top: 120px;
+    }
+
+    .skill-container .text-area {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .skill-container .text-area .skill-title .skill-icon {
+        height: 20px;
+    }
+
     /* Contact.php */
     .contactMe-container {
-        padding-top: 30px;
+        padding-top: 120px;
     }
 
     .contactMe-container .detail-box {
@@ -693,8 +700,9 @@ footer p {
     .contactMe-container .detail-box .detail {
         margin: 0 auto;
         width: 100%;
-        margin-bottom: 50px;
-        padding-top: 25px;
+        margin-bottom: 70px;
+        padding-top: 60px;
+        padding-bottom: 50px;
     }
 
     .contactMe-container .detail-box .detail img {
