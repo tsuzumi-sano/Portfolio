@@ -73,7 +73,7 @@ li {
 
 /* メインイメージ */
 .mainImage-container {
-    height: 700px;
+    height: 640px;
     background-color: #FAF8F8;
     width: 100%;
     display: flex;
@@ -87,7 +87,7 @@ li {
 .mainImage-container .main-name h1 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: normal;
     color: #555353;
     line-height: 100px;
@@ -102,8 +102,8 @@ li {
     padding-left: 10px;
 }
 
-.mainImage-container .img {
-    width: 500px;
+.mainImage-container img {
+    width: 433px;
     padding-top: 80px;
 }
 
@@ -367,7 +367,7 @@ li {
 
 .skill-container .text-area {
     padding-top: 20px;
-    font-size: 19px;
+    font-size: 18px;
     color: #555353;
 }
 
@@ -445,7 +445,8 @@ footer p {
     }
 
     .mainImage-container img {
-        width: 350px;
+        width: 320px;
+        padding-top: 29px;
     }
 
     /* About.php */
@@ -567,7 +568,7 @@ footer p {
 
     /* メインイメージ */
     .mainImage-container {
-        height: 533px;
+        height: 515px;
     }
 
     .mainImage-container .main-name {
@@ -575,8 +576,8 @@ footer p {
     }
 
     .mainImage-container .main-name h1 {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 45px;
+        line-height: 53px;
     }
 
     .mainImage-container .main-name h2 {
@@ -592,7 +593,8 @@ footer p {
     }
 
     .mainImage-container img {
-        width: 200px;
+        width: 190px;
+        padding-top: 10px;
     }
 
     .red-box {
@@ -685,7 +687,19 @@ footer p {
         margin-bottom: 100px;
     }
 
-    /* skill.php */
+    /* about.php skill */
+    .skill-container .text-area .skill-title h3 {
+        font-size: 13px;
+        padding-left: 7px;
+        line-height: 27px;
+    }
+
+    .skill-container .text-area .skill-description {
+        line-height: 20px;
+        font-size: 12px;
+        padding-left: 9px;
+    }
+
     .skill-container {
         padding-top: 120px;
     }
