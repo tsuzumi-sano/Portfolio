@@ -348,7 +348,7 @@ li {
     letter-spacing: 3px;
 }
 
-/* skill.php */
+/* about.php  skill*/
 .skill-container {
     padding-top: 200px;
     width: 80%;
@@ -368,27 +368,40 @@ li {
 .skill-container .text-area {
     padding-top: 20px;
     font-size: 19px;
+    color: #555353;
 }
 
-.skill-container .text-area .skill-maintext {
+.skill-container .text-area .introduction {
     padding: 10px 0;
 }
 
-.skill-container .text-area .skill-title {
+.skill-container .text-area .about-title {
     display: flex;
     align-items: center;
 }
 
-.skill-container .text-area .skill-title .skill-icon {
+.skill-container .text-area .about-title .skill-icon {
     height: 25px;
 }
 
-.skill-container .text-area .skill-title h3 {
+.skill-container .text-area .about-title h3 {
     margin-left: 5px;
     margin-block-start: 10px; margin-block-end: 10px; }
 
+.skill-container .text-area .skill-title h3 {
+    padding-left: 15px;
+    margin-block-start: 0; margin-block-end: 0; font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    background-color: #f8f2f2;
+}
+
 .skill-container .text-area .skill-description {
-    margin-block-start: 5px; margin-block-end: 15px; margin-left: 10px;
+    margin-block-start: 0; margin-block-end: 0; padding-left: 20px;
+    eft: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    line-height: 32px;
 }
 
 /* フッター */

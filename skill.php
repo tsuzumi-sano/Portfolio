@@ -53,7 +53,7 @@
                 <img src="img/diamond.svg" class="skill-icon">
                 <h3>Google Aalytics</h3>
             </div>
-            <p class="skill-description">標準機能は問題なく使用できます。カスタムレポートの作成、サイトへのタグの設置なども問題なく行えます。１年間の実務使用経験があります。</p>
+            <p class="skill-description">標準機能は問題なく使用できます。カスタムレポートの作成、サイトへのタグの設置も可能です。１年間の実務使用経験があります。</p>
 
         </div>
     </div>
