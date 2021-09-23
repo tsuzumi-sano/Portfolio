@@ -369,10 +369,11 @@ li {
     padding-top: 20px;
     font-size: 18px;
     color: #555353;
+    letter-spacing: 1px;
 }
 
 .skill-container .text-area .introduction {
-    padding: 10px 0;
+    padding-bottom: 25px;
 }
 
 .skill-container .text-area .about-title {
@@ -708,6 +709,7 @@ footer p {
         font-size: 13px;
         padding-top: 10px;
         padding-bottom: 20px;
+        letter-spacing: 0.5px;
     }
 
     .skill-container .text-area .skill-title .skill-icon {
