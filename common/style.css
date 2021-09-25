@@ -287,6 +287,10 @@ li {
     margin-right: 15px;
 }
 
+.projects-page .projects-container .projects-list .project .text-area .link-btn a:hover {
+    background-color: #f06868;
+}
+
 /* Contact.php */
 .contactMe-container {
     padding-top: 200px;
@@ -466,11 +470,11 @@ footer p {
     }
 
     .projects-list .project .text-area h3 {
-        font-size: 23px;
+        font-size: 21px;
     }
 
     .projects-list .project .text-area .description {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .projects-list .project .text-area .description-account {
@@ -489,8 +493,8 @@ footer p {
     }
 
     .projects-page .projects-container .projects-list .project .text-area .link-btn a {
-        font-size: 17px;
-        padding: 17px 12px;
+        font-size: 16px;
+        padding: 15px 10px;
     }
 
     /* skill.php */
