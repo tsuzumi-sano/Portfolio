@@ -54,7 +54,7 @@
                                 管理画面から、CSVのダウンロードや投稿の編集・削除が可能です。<br>
                                 基本的なデータベース操作、セッション機能やバリデーション機能の実装を習得するため制作しました。<br><br>
                                 使用言語、ツールなど<br>
-                                HTML / CSS / PHP / JavaScript / MySQL / さくらVPS / GitHub / VScode / MySQL Workbench<br><br>
+                                HTML / CSS / PHP / JavaScript / MySQL / さくらVPS / GitHub / VScode / phpMyAdmin / MySQL Workbench<br><br>
                                 管理画面パスワード：adminPassword
                             </p>
                             
