@@ -18,12 +18,14 @@
         <h2 class="sub-title" id="contact-title">CONTACT <span>ME</span></h2>
         <p class="subtitle-design">•••••••<img src="img/矢印.svg" alt="">•••••••</p>
         <div class="detail-box">
+            <!--
             <div class="detail">
                 <img src="img/phone.svg" alt="">
                 <b>PHONE</b>
                 <img class="line" src="img/line.png" alt="">
                 <p>080 5615 9733</p>
             </div>
+            -->
             <div class="detail">
                 <img src="img/mail.svg" alt="">
                 <b>EMAIL</b>
